@@ -4,6 +4,9 @@
 1) arandr
 2) feh
 3) lxappearance
-4( i3lock
+4) i3lock
 
+
+#Brightness controller
+https://github.com/jappeace/brightnessctl
 
