@@ -1,0 +1,9 @@
+#i3 Resources
+
+#Tools
+1) arandr
+2) feh
+3) lxappearance
+4( i3lock
+
+
