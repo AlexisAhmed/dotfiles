@@ -5,8 +5,7 @@
 2) feh
 3) lxappearance
 4) i3lock
-
-
+5) i3gaps
 #Brightness controller
 https://github.com/jappeace/brightnessctl
 

@@ -196,7 +196,7 @@ bindsym $mod+r mode "resize"
 bindsym $mod+shift+x exec i3lock --image /home/alexis/Pictures/background.png
 
 # startup
-exec_always feh --bg-scale ~/Pictures/wallpaper.jpg
+exec_always feh --bg-fill ~/Pictures/wallpaper-2.jpg
 
 
 # Screen resolution configuration
@@ -235,9 +235,13 @@ bar {
 
 
 #Brightness
-#bindsym XF86MonBrightnessUp exec --no-startup-id sudo brightnessctl s +5% # increase screen brightness
-#bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 5%-
-
 bindsym XF86MonBrightnessUp exec brightness+
 bindsym XF86MonBrightnessDown exec brightness-
 
+#i3-gaps
+gaps inner 5
+gaps outer 10
+
+
+# Disable title bar
+for_window [class="^.*"] border pixel 1
