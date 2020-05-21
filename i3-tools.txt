@@ -6,6 +6,7 @@
 3) lxappearance
 4) i3lock
 5) i3gaps
+6) compton - For transparency
 #Brightness controller
 https://github.com/jappeace/brightnessctl
 
