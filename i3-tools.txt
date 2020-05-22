@@ -9,4 +9,5 @@
 6) compton - For transparency
 #Brightness controller
 https://github.com/jappeace/brightnessctl
-
+# Primary desktop configuration
+Use Nvidia settings
