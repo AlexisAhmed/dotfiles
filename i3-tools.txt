@@ -9,5 +9,7 @@
 6) compton - For transparency
 #Brightness controller
 https://github.com/jappeace/brightnessctl
+https://github.com/Raymo111/i3lock-color
+https://github.com/meskarune/i3lock-fancy
 # Primary desktop configuration
 Use Nvidia settings
