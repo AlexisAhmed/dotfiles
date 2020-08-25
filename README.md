@@ -1,7 +1,7 @@
 # dotfiles
 A collection of personal dotfiles and configurations. Feel free to snoop around and use what interests you.
 
-#Tools Used
+## Tools Used
 1) arandr
 2) feh
 3) lxappearance
@@ -9,10 +9,10 @@ A collection of personal dotfiles and configurations. Feel free to snoop around 
 5) i3gaps
 6) compton 
 
-#Brightness controller
+### Brightness controller
 https://github.com/jappeace/brightnessctl
 
-#i3-lock
+### i3-lock
 https://github.com/Raymo111/i3lock-color
 https://github.com/meskarune/i3lock-fancy
 
