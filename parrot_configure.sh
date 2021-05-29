@@ -56,11 +56,29 @@ while true; do
     case $yn in
         [Yy]* ) echo "set number" >> ~/.vimrc \
   && echo "syntax on" >> ~/.vimrc;;
-        [Nn]* ) exit;;
+        [Nn]* ) break;;
         * ) echo "Please answer yes or no.";;
     esac
 done
 
+# Installing oh-my-zsh 
+while true; do
+    read -p "Do you wish to install oh-my-zsh? Y/N" yn
+    case $yn in
+        [Yy]* ) sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";;
+        [Nn]* ) break;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
+rm ~/.zshrc
+
+
+echo -e "${RED}[*] Retrieving custom .zshrc${NC}"
+wget https://raw.githubusercontent.com/AlexisAhmed/BugBountyToolkit-ZSH/main/.zshrc -O ${HOME}/.zshrc
+
+
+echo -e "${RED}[*] ALL DONE, HAPPY HACKING!${NC}"
 
 
 
