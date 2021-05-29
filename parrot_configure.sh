@@ -16,7 +16,7 @@ sudo apt remove neovim
 
 # Installing Essentials
 echo -e "${RED}[*] Installing Essentials${NC}"
-sudo apt install -y vim wget git curl htop tmux zsh python3-pip dotdotpwn openvpn keepassxc
+sudo apt install -y vim wget git curl htop tmux zsh python3-pip dotdotpwn openvpn keepassxc plank
 
 # Installing Chromium
 while true; do
